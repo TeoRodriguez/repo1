@@ -2,3 +2,6 @@ papa
 cebolla
 limon
 xaa
+pan 
+queso 
+vvll
