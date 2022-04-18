@@ -1,0 +1,108 @@
+/*font-family: 'Akshar', sans-serif;
+font-family: 'Roboto Mono', monospace;
+*/
+h1 {
+    font-family: 'Akshar', sans-serif;
+    color: purple;
+    background-color: black;
+    font-size: 100px;
+    text-align: center;
+    box-shadow: 15px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 15px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 15px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 26px 26px 26px 26px;
+    -webkit-border-radius: 26px 26px 26px 26px;
+    -moz-border-radius: 26px 26px 26px 26px;
+
+}
+
+img {
+    height: 300px;
+    width: 400px;
+}
+
+
+h2 {
+    text-align: center;
+
+}
+
+h3 {
+    width: 260px;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 20px;
+    background-color: black
+}
+
+#parrafos {
+    font-family: 'Roboto Mono', monospace;
+    width: 1800px;
+    height: 230px;
+    background: #120abe;
+    background: linear-gradient(180deg, #120abe 0%, #04166c 80%);
+    background: -webkit-linear-gradient(180deg, #120abe 0%, #04166c 80%);
+    background: -moz-linear-gradient(180deg, #120abe 0%, #04166c 80%);
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    border-radius: 21px 21px 31px 30px;
+    -webkit-border-radius: 21px 21px 31px 30px;
+    -moz-border-radius: 21px 21px 31px 30px;
+    border: 2px solid black;
+    column-count: 3;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-gap: 15px;
+    -webkit-column-gap: 15px;
+    -moz-column-gap: 15px;
+    column-rule: 5px double #ffffff;
+    -webkit-column-rule: 5px double #ffffff;
+    -moz-column-rule: 5px double #ffffff;
+    box-shadow: 3px 3px 26px 13px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 3px 3px 26px 13px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 3px 26px 13px rgba(0, 0, 0, 0.75);
+}
+
+#parrafos p {
+    margin: 0;
+}
+
+.flecha {
+    color: yellow;
+    font-size: 20px;
+}
+
+.subtitulo2 {
+    width: 460px;
+}
+
+.lista {
+    font-size: 20px;
+    width: 400px;
+    height: 130px;
+    background-color: black;
+    color: yellow;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 24px 24px 23px 25px;
+    -webkit-border-radius: 24px 24px 23px 25px;
+    -moz-border-radius: 24px 24px 23px 25px;
+
+}
+
+h4 {
+    padding: 5px;
+    margin: 12px;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: black;
+    width: 350px;
+    color: red
+}
+
+.punto {
+    color: yellow;
+}
