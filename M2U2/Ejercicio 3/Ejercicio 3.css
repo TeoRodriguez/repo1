@@ -1,0 +1,45 @@
+.Contenedor {
+    background-color: white;
+    width: 1500px;
+    border: 2px solid #1f1b1a;
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+.red {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+
+.blue {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.green {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
