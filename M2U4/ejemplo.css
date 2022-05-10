@@ -1,0 +1,28 @@
+p{
+    color: #D0D3D4;
+    padding: 10px;
+    margin: 5px;
+
+}
+h2{
+    color: #D0D3D4;
+    padding: 10px;
+}
+img{
+    margin: 0px;
+    height: 533px;
+    width: 820px;
+}
+
+h1{
+    text-align: center;
+    color: red;
+}
+
+.Telefono{
+    color: blue;
+}
+.mail{
+    color: blue;
+}
+
