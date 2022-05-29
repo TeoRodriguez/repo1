@@ -1,0 +1,135 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header {
+    background-color: #875933;
+    padding: 20px 0;
+}
+
+header h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+    margin-left: 10px;
+}
+
+nav {
+    background-color: #A47518;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex-grow: 1;
+    color: white;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+
+
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0, 3);
+    display: block;
+}
+
+nav ul li a.activo {
+    background-color: #CD8F14;
+}
+
+
+footer {
+    background-color: #9B9A98;
+    clear: both;
+    color: black;
+    text-align: center;
+    padding: 50px 0px;
+    margin-top: 20px;
+}
+
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+
+/* .holder h2 { */
+/* color: #875933; */
+/* margin: 30px 10px; */
+
+/* } */
+
+
+.container .row {
+    gap: 10px;
+}
+
+.container .row .col {
+    border: 1px solid #000000;
+    border-radius: 8px 8px 8px 8px;
+    -webkit-border-radius: 8px 8px 8px 8px;
+    -moz-border-radius: 8px 8px 8px 8px;
+    color: black;
+
+
+
+
+}
+
+.container .row .col h3 {
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.inicio {
+    display: flex;
+    /* background-color: #875933; */
+    margin: 10px 10px;
+}
+
+.inicio h2 {
+    position: relative;
+    top: 100px;
+}
+
+img {
+    border-radius: 153px 153px 153px 153px;
+    -webkit-border-radius: 153px 153px 153px 153px;
+    -moz-border-radius: 153px 153px 153px 153px;
+}
+
+.col h2 {
+    font-style: italic;
+    text-align: center;
+    font-size: 30px;
+
+}

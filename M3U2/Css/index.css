@@ -1,0 +1,162 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header {
+    background-color: #875933;
+    padding: 20px 0;
+}
+
+header h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+    margin-left: 10px;
+}
+
+nav {
+    background-color: #A47518;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex-grow: 1;
+    color: white;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+
+
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0, 3);
+    display: block;
+}
+
+nav ul li a.activo {
+    background-color: #CD8F14;
+}
+
+
+footer {
+    background-color: #9B9A98;
+    clear: both;
+    color: black;
+    text-align: center;
+    padding: 50px 0px;
+    margin-top: 20px;
+}
+
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-weight: 400px;
+    color: #875933;
+}
+
+.bienvenidos {
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.testimonios {
+    width: 25%;
+}
+
+.columna {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bienvenidos p {
+    font-size: 20px;
+}
+
+.testimonio {
+    background-color: #ccc;
+    padding: 16px;
+}
+
+.testimonio .cita {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    display: block;
+}
+
+.testimonio .autor {
+    font-size: 10px;
+    text-align: center;
+    display: block;
+    margin: 12px 0;
+}
+
+/* .staff {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.staff h2 {
+    position: relative;
+    bottom: 20px;
+
+}
+
+h3 {
+    color: #BC8516;
+    padding-left: 5px;
+}
+
+h4 {
+    color: #A87A1D;
+    padding-left: 5px;
+    
+}
+
+.columna {
+    display: block;
+    margin-top: 40px;
+    position: relative;
+    right: 70px;
+    border: 1px double #000000;
+    padding: px;
+    gap: 20px;
+    border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+}
+.staff .columna p{
+ padding-left: 5px;
+} */
