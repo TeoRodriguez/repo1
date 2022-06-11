@@ -1,0 +1,39 @@
+body {
+    padding: 20px;
+    margin: 20px;
+   
+
+}
+
+
+.fondoceleste {
+    padding-right: 10px;
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    text-align: center
+}
+
+
+.fondoazul {
+    padding-right: 10px;
+    background-color: blue;
+    color: white;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+cursor: pointer;
+
+}
+
+
+.fondorojo {
+    /* padding-right: 10px; */
+    background-color: brown;
+    color: white;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
