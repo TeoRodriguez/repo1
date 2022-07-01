@@ -26,7 +26,7 @@ const NosotrosPage = (props) => {
                 
                 <div class="staff">
                     <h2>Staff</h2>
-                    <div class="columna">
+                    <div class="columna1">
                         <img src="img/como-conocer-gente-nueva-41.jpg" width="200px" height="133px" alt=""/>
                             <h3>Lorenzo Augusto</h3>
                             <h4>Graduado de Harvard</h4>
@@ -34,7 +34,7 @@ const NosotrosPage = (props) => {
                                 laudantium esse at sunt vel nulla quae ipsa quis ratione, officiis atque? Ut quae voluptate
                                 recusandae necessitatibus corporis?</p>
                     </div>
-                    <div class="columna">
+                    <div class="columna1">
                         <img src="img/images.jfif" width="200px" height="133px" alt=""/>
                             <h3>Lorenzo Augusto</h3>
                             <h4>Graduado de Harvard</h4>
@@ -45,7 +45,7 @@ const NosotrosPage = (props) => {
 
                     </div>
 
-                    <div class="columna">
+                    <div class="columna1">
                         <img src="img/istockphoto-1007763808-612x612.jpg" width="200px" alt=""/>
                             <h3>Lorenzo Augusto</h3>
                             <h4>Graduado de Harvard</h4>
@@ -55,7 +55,7 @@ const NosotrosPage = (props) => {
 
 
                     </div>
-                    <div class="columna">
+                    <div class="columna1">
                         <img src="Img/istockphoto-1181083533-612x612.jpg" width="200px" height="133px" alt=""/>
                             <h3>Lorenzo Augusto</h3>
                             <h4>Graduado de Harvard</h4>

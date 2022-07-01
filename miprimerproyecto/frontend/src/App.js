@@ -11,6 +11,7 @@ import HomePage from "./pages/HomePage";
 import NosotrosPage from "./pages/NosotrosPage";
 import NovedadesPage from "./pages/NovedadesPage";
 import ContactoPage from "./pages/ContactoPage";
+import NoticiasPage from "./pages/NoticiasPage";
 
 
 function App() {
@@ -18,15 +19,16 @@ function App() {
     <div className="App">
       <Header />
       <BrowserRouter>
-        <Nav />
+      <Nav />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="nosotros" element={<NosotrosPage />} />
           <Route path="novedades" element={<NovedadesPage />} />
           <Route path="contacto" element={<ContactoPage />} />
+          <Route path="noticias" element={<NoticiasPage />} />
         </Routes>
       </BrowserRouter>
-
+      
       <Footer />
     </div>
   );

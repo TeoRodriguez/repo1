@@ -1,16 +1,17 @@
+import "../styles/components/pages/HomePage.css"
 import React from "react";
 const HomePage = (props) => {
     return (
         <div>
 
-            <main>
+            <main className="holder">
                 <div>
-                    <img src="img/No-se-olviden.jpg" />
+                    <img src="img/No-se-olviden.jpg " width="1000px" />
 
 
                 </div>
 
-                <div class="columna">
+                <div className="columna">
                     <section class="Bienvenidos">
                         <h2>Bienvenidos</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi velit laboriosam natus praesentium
@@ -20,11 +21,11 @@ const HomePage = (props) => {
                             suscipit ea, sapiente harum distinctio laudantium sed minima rem obcaecati maxime! Perferendis
                             fugiat consequatur qui cumque libero.</p>
                     </section>
-                    <section class="testimonios">
+                    <section className="testimonios">
                         <h2>Testimonios</h2>
-                        <div class="testimonio">
-                            <span class="cita"> Simplemente periodismo extraordinario </span>
-                            <span class="autor"> Joaquin Ortiz de Ocampo</span>
+                        <div className="testimonio">
+                            <span className="cita"> Simplemente periodismo extraordinario </span>
+                            <span className="autor"> Joaquin Ortiz de Ocampo</span>
                         </div>
                     </section>
 
@@ -37,6 +38,7 @@ const HomePage = (props) => {
 
 
             </main>
+        
 
 
 

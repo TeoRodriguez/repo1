@@ -1,0 +1,45 @@
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-weight: 400px;
+    color: #875933;
+}
+
+.noticias{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    
+
+}
+
+.noticias .info1 h4{
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 1px solid #2e64a1;
+}
+.noticias h4{
+    color: #875933;
+    
+}
+
+p{
+    font-size: 20px;
+}
+.noticias img{
+    border-radius: 13px;
+    display: block;
+    max-width: 225px;
+}
+
+
+.noticia:nth-child(even){
+    flex-direction: row-reverse;
+}
