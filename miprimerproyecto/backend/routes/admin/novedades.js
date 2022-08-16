@@ -42,7 +42,7 @@ router.post("/agregar", async (req, res, next) => {
   res.render("admin/agregar", {
     layout: "admin/layout",
     error: true,
-    message: "No se cargo la novedad"
+    message: "No se cargo la novedad."
   })
 }
 })
