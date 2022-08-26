@@ -1,40 +1,50 @@
 import "../styles/components/pages/NosotrosPage.css"
 import React from "react";
+import { useState, useEffect } from "react";
+import axios from "axios";
+import NovedadItem from "../components/novedades/NovedadItem";
+
+
+
+
+
 const NovedadesPage = (props) => {
+
+    const [loading, setLoading] = useState(false);
+    const [novedades, setNovedades] = useState([]);
+
+    useEffect(() => {
+        const cargarNovedades = async () => {
+            setLoading(true);
+            const response = await axios.get("http://localhost:3000/api/novedades");
+            setNovedades(response.data);
+            setLoading(false);
+        };
+
+        cargarNovedades();
+    }, []);
+
+
+
+
     return (
-        <div>
-            <main className="holder">
-                {/* <h2 style="color: #A47518;">Novedades</h2> */}
-                <div className="novedades">
-                    <h3>Titulo</h3>
-                    <h4>Subtitulo</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet illum ullam sequi esse culpa? Sapiente
-                        et atque id accusantium non quidem quas ducimus molestiae. Laudantium voluptatibus tempore enim quae
-                        ullam!.</p>
-                    <hr/>
-                </div>
-                <div className="novedades">
-                    <h3>Titulo</h3>
-                    <h4>Subtitulo</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet illum ullam sequi esse culpa? Sapiente
-                        et atque id accusantium non quidem quas ducimus molestiae. Laudantium voluptatibus tempore enim quae
-                        ullam!.</p>
-                    <hr/>
-                </div>
-                <div className="novedades">
-                    <h3>Titulo</h3>
-                    <h4>Subtitulo</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet illum ullam sequi esse culpa? Sapiente
-                        et atque id accusantium non quidem quas ducimus molestiae. Laudantium voluptatibus tempore enim quae
-                        ullam!.</p>
-                    <hr/>
-                </div>
-
-
-
-            </main>
-        </div>
+        
+        <section>
+        
+            <h2> Novedades </h2>
+            {
+                loading ? (
+                    <p>Cargando... </p>
+                ) : (
+                    novedades.map(item => <NovedadItem key={item.id}
+                        title={item.titulo} subtitle={item.subtitulo}
+                        imagen={item.imagen} body={item.cuerpo} />)
+                )
+            }
+       
+       </section>
     )
+};
 
-}
+
 export default NovedadesPage;
