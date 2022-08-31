@@ -6,7 +6,9 @@ const HomePage = (props) => {
 
             <main className="holder">
                 <div>
-                    <img src="img/No-se-olviden.jpg " width="1000px" />
+                    <img src="img/towfiqu-barbhuiya-nApaSgkzaxg-unsplash-1024x683.webp" width="1000px" height="500px"/>
+                    
+                    
 
 
                 </div>
@@ -38,7 +40,7 @@ const HomePage = (props) => {
 
 
             </main>
-        
+
 
 
 

@@ -27,7 +27,7 @@ h4 {
     position: relative;
     right: 70px;
     border: 1px double #000000;
-    padding: px;
+    padding: 10px;
     gap: 20px;
     border-radius: 3px 3px 3px 3px;
     -webkit-border-radius: 3px 3px 3px 3px;
@@ -41,3 +41,4 @@ body {
     font-size: 16px;
     line-height: 20px;
 }
+

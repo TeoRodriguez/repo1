@@ -1,4 +1,4 @@
-import "../styles/components/pages/NosotrosPage.css"
+import "../styles/components/pages/NovedadesPage.css"
 import React from "react";
 import { useState, useEffect } from "react";
 import axios from "axios";
@@ -29,9 +29,9 @@ const NovedadesPage = (props) => {
 
     return (
         
-        <section>
+        <section className="holder">
         
-            <h2> Novedades </h2>
+            <h2 > Novedades </h2>
             {
                 loading ? (
                     <p>Cargando... </p>

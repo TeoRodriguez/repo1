@@ -16,11 +16,17 @@
 .formulario p{
     display: flex;
 }
-.formular p label{
+.formular p {
+    display: flex;
+}
+.formulario p label{
     min-width: 80px;
+}
+
+.formulario p label{
+    
     display: flex;
     align-items: center;
-
 }
 
 formulario p:nth-child(4){
@@ -32,14 +38,19 @@ formulario p:nth-child(4){
     height: 150px;
 }
 
-/* .formulario p textarea{
+.formulario textarea{
     width: 100%;
     background-color: #ddd;
     border-radius: 5px;
     border: 1px solid #999;
     font-size: 14px;
-    padding: 6px 10px;
-} */
+    padding: 6px 10px; 
+}
+
+.formulario .mensaje{
+   position: relative;
+   bottom: 60px;
+}
 
 
 
@@ -59,3 +70,5 @@ formulario p:nth-child(4){
 .formulario input[type="submit"]:hover{
     background-color: #2e64a1;
 }
+
+

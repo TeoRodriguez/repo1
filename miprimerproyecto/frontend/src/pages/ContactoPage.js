@@ -61,7 +61,7 @@ const ContactoPage = (props) => {
                         <input type="text" name="telefono" value={formData.telefono} onChange={handleChange} />
                     </p>
                     <p>
-                        <label for="mensaje"> Mensaje </label>
+                        <label for="mensaje" className="mensaje"> Mensaje </label>
                         <textarea name="mensaje" value={formData.mensaje} onChange={handleChange}></textarea>
                     </p>
                     <p class="acciones"><input type="submit" value="Enviar" />
